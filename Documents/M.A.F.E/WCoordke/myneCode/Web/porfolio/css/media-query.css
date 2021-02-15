@@ -1,0 +1,41 @@
+@media (max-width: 500px){
+    .greetings{
+        font-size: 20px;
+    }
+    .profile-link{
+        width: 40px;
+        height: 40px;
+    }
+    .icons a{
+        font-size: 10px;
+        border-radius: 1px 8px;
+    }
+    .sign{
+        font-size: 8px;
+    }
+    nav{
+        padding: 5px 5px;
+    }
+    nav ul{
+        visibility: hidden;
+    }
+    #logo img{
+        width: 45px;
+        height: 35px;
+    }
+    #info-head p{
+        font-size: 12px;
+    }
+    #info-head img{
+        width: 18px;
+        height: 18px;
+        border-radius: 0px 5px;
+    }
+    .menu-bar{
+        visibility: visible;
+    }
+    .short-hr{
+        width: 35px;
+    }
+}
+

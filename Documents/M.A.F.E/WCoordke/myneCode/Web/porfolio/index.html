@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>More by Mafe</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link rel="stylesheet" href="css/divider.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <script src="js/section.js"></script>
+</head>
+<body>
+  <!-- top information: email, number, social media -->
+  <div id="info-head">
+
+    <p>09098707834 | mafeolatunji17@gmail.com<p>
+
+    <div id="contact-head">
+      <a href="#">
+        <img src="img/facebook.png" alt="facebook">
+      </a>
+      <a href="#">
+        <img src="img/twitter.png" alt="twitter">
+      </a>
+      <!--
+      <a href="#"> github
+        <img src="#" alt="">
+      </a>
+      -->
+      <a href="#">
+        <img src="img/instagram.png" alt="instagram">
+      </a>
+      <a href="#">
+        <img src="img/dribble.png" alt="dribble">
+      </a>
+    </div>
+
+  </div>
+
+  <!-- menu && logo -->
+  <nav>
+    
+    <a id="logo" href="#">
+      <img src="img/mafe.gif" alt="logo">
+    </a>
+
+    <ul>
+      <a href="#about"> 
+        <li>About</li>
+      </a>
+      <a href="#portfolio">
+        <li>Works</li>
+      </a>
+      <a href="#contact">
+        <li>Contact</li>
+      </a>
+    </ul>
+
+    <div class="menu-bar" onclick="myFunction(this), dropDown()"
+     class="drop-btn">
+      <div class="bar one"></div>
+      <div class="bar two"></div>
+      <div class="bar three"></div>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">About</a>
+        <a href="#">Works</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    
+  </nav>
+  
+  <!-- header -->
+  <section id="about">
+    <h5 class="sign">ABOUT<hr class="short-hr"></h5>
+    <div class="greetings">
+      <h1>Hello World!<br>
+      I'm Tunji Mafe</h1>
+    </div>
+    
+    <div id="btn">
+      <a href='#'>
+        Web developer
+      </a>
+      <a href="#">
+        Coding Tutor
+      </a>
+      <a href="#">
+        Illustrator
+      </a>
+    </div>  
+  </section>
+
+ 
+  <div class="custom-shape-divider-bottom-1611681942">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+    </svg>
+  </div> 
+
+  <!-- works -->
+  <section id="portfolio">
+    <h5 class="sign">PORFOLIO<hr class="short-hr"></h5>
+    <div id="workspace">
+      <div class="items">
+        <a href="works/memory game/memory game.html" target="_blank">
+          <img src="img/memory-game.png" alt="memory-game" class="imgs">
+          <p>Game</p>
+        </a>
+      </div>
+      <div class="items">
+        <img src="img/smile.png" id='smile' alt="Portrait" class="imgs"
+        onclick="visible(), modalImg()">
+        <p>Portrait</p>
+      
+        <div id="myModal" class="modal">
+          <span class="close" onclick="document.getElementById('myModal').style.display='none'">
+          &times;</span>
+
+          <div id="caption">Portrait</div>
+        </div>       
+      </div>
+      <div class="items">
+          <a href="#">
+            <img src="img/naija.png" alt="form" class="imgs">
+            <p>Form</p>
+          </a>       
+      </div>
+      <div class="items">
+        <a href="#">
+          <img src="img/iris.png" alt="cover" class="imgs">
+          <p>Cover</p>
+        </a> 
+      </div>
+      <div class="items">
+        <a href="#">
+          <img src="img/martin.png" alt="martin" class="imgs">
+          <p>Tribute</p>
+        </a> 
+      </div>
+      <div class="items">
+        <a href="#">
+          <img src="img/desert.png" alt="desert" class="imgs">
+          <p>Wallpaper</p>
+        </a>       
+      </div>
+      <div class="items">
+        <a href="#">
+          <img src="img/user.png" alt="login" class="imgs">
+          <p>Login</p> 
+        </a> 
+      </div> 
+      <div class="items">
+        <a href="#">
+          <img src="img/bigstory.png" alt="login" class="imgs">
+          <p>Cover</p> 
+        </a> 
+      </div>  
+      <div class="items">
+        <a href="#">
+          <img src="img/toni.png" alt="toni" class="imgs">
+          <p>Potrait</p>
+        </a>       
+    </div>
+      <div class="items">
+        <a href="#">
+          <img src="img/jscript.png" alt="js-docs" class="imgs">
+          <p>Docs</p>
+        </a> 
+      </div> 
+      <div class="items">
+        <a href="#">
+          <img src="img/poster.png" alt="poster" class="imgs">
+          <p>Poster</p>
+        </a>       
+      </div>  
+      <div class="items">
+        <a href="#">
+          <img src="img/light.png" alt="concept" class="imgs">
+          <p>Concept</p>
+        </a>       
+      </div>   
+    </div>
+    
+  </section>
+
+  <img src="img/static.png" class="static" alt="static">
+
+  <div id="bridge"> 
+    <p>I am an <span>artist,</span> the web is my <span>canvas.</span></p>
+  </div>
+      
+  
+  <!-- contact -->
+  <section id="contact">
+      <h5 class="sign">CONTACT<hr class="short-hr"></h5>
+      <div class="greetings">
+        <h3>Let's work together...</h3>
+      </div>
+    <div class="icons-social">
+      <div class="icons">
+        <a href="#">
+          <img src="img/facebook.png" alt="facebook" class="profile-link"><p>Facebook</p>
+        </a>
+        <a href="#" class="profile-link">
+          <img src="img/twitter.png" alt="twitter" class="profile-link"><p>Twitter</p>
+        </a>
+        <a href="#" class="profile-link">
+          <img src="img/instagram.png" alt="instagram" class="profile-link"><p>Instagram</p>
+        </a>
+      </div>   
+      <div class="social-links">
+        <ul>
+          <li>facebook: <a href="#">www.facebook.com/olatunjidmafe</a></li>
+          <li>twitter: <a href="#">twitter.com/morebymafe</a></li>
+          <li>instagram: <a href="#">instagram.com/morebymafe</a></li>
+          <li>github: <a href="#">github.com/Maemaph</a></li>
+        </ul>
+      
+      </div>
+
+    </div>
+    
+    
+  </section>
+
+  <div id="code">
+    <a href="github.com"><p>Check code</p></a>
+  </div>
+
+  
+
+  <footer>
+    <p>Copyrights @ More by Mafe 2020</p>
+  </footer>
+
+</body>
+</html>
+</body>
+</html>
